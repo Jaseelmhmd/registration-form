@@ -1,0 +1,58 @@
+.container {
+    border-radius: 5px;
+    background-color: whitesmoke;
+    padding: 20px;
+  }
+  .button {
+    width: 50%;
+    background-color: aquamarine;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .button:hover {
+    background-color: green;
+  }
+  .Mini-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    padding: 5px 0;
+  }
+  .btn {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+  }
+  .submit {
+    justify-self: end;
+  }
+  .clear {
+    justify-self: center;
+  }
+  fieldset {
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: white;
+  }
+  .lab{
+    justify-self: end;
+    padding: 12px 5px;
+    margin: 8px 0;
+  }
+  .header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+  }
+  h2{
+    grid-column-start: 2;
+  }
+  .form-control{
+    width: 100%;
+    padding: 12px 0;
+    margin: 8px 0;
+    border: 1px solid slategrey;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
